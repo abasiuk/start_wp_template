@@ -1,0 +1,25 @@
+body {
+  font-size: 20px;
+  background: blue;
+  border-bottom: 2px;
+  background-size: cover;
+  -webkit-transition: all 500ms;
+  -o-transition: all 500ms;
+  transition: all 500ms; }
+
+section {
+  height: 200px;
+  width: 100%;
+  background: green;
+  -webkit-transform: skew(0deg, 5deg);
+      -ms-transform: skew(0deg, 5deg);
+          transform: skew(0deg, 5deg); }
+  section div {
+    width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    text-align: center;
+    padding-top: 50px;
+    -webkit-transform: skew(0deg, -5deg);
+        -ms-transform: skew(0deg, -5deg);
+            transform: skew(0deg, -5deg); }
